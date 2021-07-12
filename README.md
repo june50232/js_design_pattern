@@ -1,4 +1,4 @@
-# js OO and design pattern study
+# JS OO and design pattern study
 
 >guide: https://www.youtube.com/watch?v=7FjsHBSxLjE&list=PL9nxfq1tlKKkfCNnYKoC2yvSy4jo1AsoD&ab_channel=JomyKing
 
