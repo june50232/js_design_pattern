@@ -1,0 +1,11 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+/dist
+/node_module
+
+/.idea
+
+.DS_Store

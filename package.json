@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "NODE_ENV=production webpack",
+    "start:prod": "NODE_ENV=production node .bin/www",
+    "start:no-hmr": "NO_HMR=1 node .bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-webpack-assets": "^0.1.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "twig": "~0.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "assets-webpack-plugin": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "chokidar": "^3.5.2",
+    "css-loader": "^2.1.0",
+    "html-loader": "^2.1.2",
+    "http-proxy": "^1.17.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
